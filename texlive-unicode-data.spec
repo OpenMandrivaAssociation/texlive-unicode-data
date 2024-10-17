@@ -3,7 +3,7 @@ Version:	68311
 Release:	1
 Summary:	Unicode data and loaders for TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/unicode-data
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/unicode-data
 License:	lppl1.3c
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/unicode-data.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/unicode-data.doc.r%{version}.tar.xz
