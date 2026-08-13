@@ -1,9 +1,10 @@
 %global tl_name unicode-data
-%global tl_revision 76413
+%global tl_revision 79913
+%global tl_version 1.20
 
 Name:		texlive-%{tl_name}
 Epoch:		1
-Version:	1.19
+Version:	%{tl_version}
 Release:	%{tl_revision}.1
 Summary:	Unicode data and loaders for TeX
 Group:		Publishing
@@ -13,7 +14,7 @@ Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/unicode-data.r%{
 Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/unicode-data.doc.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 This bundle provides generic access to Unicode Consortium data for TeX
